@@ -1,22 +1,22 @@
 {
   "tasks": [
     {
-      "id": 3,
-      "text": "Cleaning Desk",
-      "day": "May 7th at 12:30pm",
-      "reminder": false
+      "text": "Shopping",
+      "day": "2022-06-23 at 23:43",
+      "reminder": false,
+      "id": 7
     },
     {
-      "id": 4,
-      "text": "Read book",
-      "day": "May 7th at 12:30pm",
-      "reminder": true
+      "text": "Meditation",
+      "day": "2022-06-24 at 08:00",
+      "reminder": true,
+      "id": 8
     },
     {
-      "id": 5,
-      "text": "Meditate",
-      "day": "May 7th at 12:30pm",
-      "reminder": false
+      "text": "Angular Training",
+      "day": "2022-06-24 at 23:00",
+      "reminder": true,
+      "id": 9
     }
   ]
 }
