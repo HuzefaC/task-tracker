@@ -15,4 +15,12 @@ export class TasksComponent implements OnInit {
   }
 
   ngOnInit(): void {}
+
+  removeTask(task: Task) {
+    this.taskService
+      .removeTask(task)
+      .subscribe(
+        () => (this.tasks = this.tasks.filter((t) => t.id != task.id))
+      );
+  }
 }
